@@ -31,7 +31,7 @@ const NavDrawer = ({ onClose, open }: NavDrawerPropTypes) => {
   return (
     <nav
       className={`fixed flex flex-col justify-between h-screen overflow-y-auto bg-white dark:bg-[#080f15] z-10 top-0 left-0 transition-all ${
-        open ? "translate-x-[-25rem]" : "-translate-x-0"
+        open ? "-translate-x-0" : "translate-x-[-25rem]"
       }`}
     >
       <div className="relative">

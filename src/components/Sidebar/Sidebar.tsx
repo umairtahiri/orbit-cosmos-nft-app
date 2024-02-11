@@ -2,7 +2,6 @@ import Image from "next/image";
 
 import BalanceCard from "@/components/BalanceCard/BalanceCard";
 import ThemeSwitch from "@/components/ThemeSwitch/ThemeSwitch";
-import BellIcon from "@images/bell.svg";
 import AvatarIcon from "@images/avatar.png";
 
 import { mainOptions, profileOptions, otherOptions } from "./options";

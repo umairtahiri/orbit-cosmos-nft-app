@@ -41,7 +41,7 @@ const MoreIcon = ({
   active: boolean;
   onClick: () => void;
 }) => {
-  return !active ? (
+  return active ? (
     <button
       onClick={onClick}
       className="h-12 px-5 hidden lg:flex items-center justify-center gap-2 text-base font-medium text-nowrap outline-none rounded-full transition-all duration-300 disabled:opacity-50 group text-white bg-primary xs:hover:opacity-75 w-12 h-12 rounded-md !px-1 !bg-black dark:!bg-white/20"
